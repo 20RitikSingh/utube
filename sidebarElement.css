@@ -1,0 +1,16 @@
+.sidebarElement div{
+    display: flex;
+    padding: 3px;
+    align-items: center;
+    margin: 3px;
+}
+
+.sidebarElement{
+    margin: 6px;
+    cursor: pointer;
+}
+.sidebarElement :hover{
+    background-color: rgb(219, 217, 217);
+    font-weight:600;
+    border-radius: .4rem;
+}

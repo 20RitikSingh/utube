@@ -1,0 +1,51 @@
+*:focus {
+    outline: none;
+}
+.header *{
+    font-size: large;
+}
+.header{
+    position: sticky;
+    top:0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    background-color: rgb(239, 239, 239);
+}
+.logo{
+    width: 100px;
+    margin-left: 8px;
+}
+.header_left *:hover{
+    cursor: pointer;;
+}
+.header_left {    
+    
+}
+.header_mid input{
+    flex:1;
+    border: 0;
+    border-right: 2px solid rgb(203, 203, 203);
+    background-color:  rgb(239, 239, 239);
+    margin: 6px;
+}
+.header_mid input:{
+    border: 0;
+    border-right: 2px solid rgba(0, 0, 0, 0.438);
+}
+
+.header_mid {
+    display: flex;
+    border: 2px solid rgb(203, 203, 203);
+    align-items: center;
+    border-radius: 1.2rem;
+    padding: 0 8px;
+    flex:0.3
+}
+.header_right *{
+    
+    margin-right: 8px;
+    cursor: pointer;
+}

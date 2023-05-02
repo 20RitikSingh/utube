@@ -1,0 +1,10 @@
+div{
+    position:sticky;
+    top:80px;
+}
+hr{
+    border: none;
+    height: 2px;
+    background-color: rgb(220, 220, 220);
+    margin: 15px 0px;
+}
